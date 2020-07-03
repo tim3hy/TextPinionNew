@@ -35,6 +35,12 @@ public class TextEingabe extends AppCompatActivity {
             }
         });
 
-        
+        txtPinion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentTxtPinion = new Intent(TextEingabe.this, TextPinion.class);
+                startActivity(intentTxtPinion);
+            }
+        });
     }
 }
