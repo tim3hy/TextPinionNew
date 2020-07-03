@@ -13,24 +13,33 @@
         android:layout_height="203dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="215dp" />
+        app:layout_constraintBottom_toTopOf="@+id/txtPinion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.851" />
 
     <Button
         android:id="@+id/txtPinion"
         android:layout_width="229dp"
         android:layout_height="116dp"
+        android:layout_marginBottom="176dp"
         android:text="TextPinion erhalten!"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="446dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="63dp"
         android:layout_height="82dp"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/hombutton_white_home_button_11563211148zdfdwfoi16"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/hombutton_white_home_button_11563211148zdfdwfoi16" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
