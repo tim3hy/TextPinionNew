@@ -19,5 +19,9 @@ public class TextEingabe extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text_eingabe);
 
+        textEingabe = (EditText) findViewById(R.id.textEingabe);
+        txtPinion = (Button) findViewById(R.id.txtPinion);
+        imageButton = (ImageButton) findViewById(R.id.imageButton);
+
     }
 }

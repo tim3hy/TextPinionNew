@@ -2,8 +2,35 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageButton"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TextEingabe">
+
+    <EditText
+        android:id="@+id/textEingabe"
+        android:layout_width="229dp"
+        android:layout_height="203dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <Button
+        android:id="@+id/txtPinion"
+        android:layout_width="229dp"
+        android:layout_height="116dp"
+        android:text="TextPinion erhalten!"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="63dp"
+        android:layout_height="82dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hombutton_white_home_button_11563211148zdfdwfoi16"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
