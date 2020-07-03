@@ -2,7 +2,9 @@ package ch.zli.m335.textpinion1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -23,5 +25,16 @@ public class TextEingabe extends AppCompatActivity {
         txtPinion = (Button) findViewById(R.id.txtPinion);
         imageButton = (ImageButton) findViewById(R.id.imageButton);
 
+        textEingabe.setHint("Text eingeben");
+
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentMainActiv= new Intent(TextEingabe.this, MainActivity.class);
+                startActivity(intentMainActiv);
+            }
+        });
+
+        
     }
 }
